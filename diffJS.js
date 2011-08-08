@@ -1,4 +1,4 @@
-jsDiff = (function(config){
+diffJS = (function(config){
 	
 	// Regular expression for convert input strings in the internal format for comparison
 	var regToReplace = /([\s]{2,})+/ig;

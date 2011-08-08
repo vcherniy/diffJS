@@ -1,8 +1,9 @@
 <script src="jquery.js" type="text/javascript"></script>
+<script src="diffJS.js" type="text/javascript"></script>
 <script>
 function cl()
 {
-	res = jsDiff.load({
+	res = diffJS.load({
 		first:  $('#first').val(),
 		second: $('#second').val()
 	});
